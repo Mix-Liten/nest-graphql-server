@@ -5,4 +5,4 @@ import { UsersService } from "./users.service";
 @Module({
     providers: [UsersResolver, UsersService]
 })
-export default class UsersModule {}
+export class UsersModule {}
